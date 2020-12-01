@@ -7,8 +7,14 @@ Mini-Batch GD
 Stochastic GD (Change Batch Size to 1)
 Batch GD(Vanilla GD)
 
+PESU_MI_0149_0312_0343_preprocess used to Pre-Process dataset LBW_Dataset
+Returns cleaned_LBW_Dataset
+PESU_MI_0149_0312_0343_NNimplement implements the NN on the cleaned dataset
 
-#Problem Statement:
+Can add/delete parameters to vary layers, activations in code
+
+
+# Problem Statement:
 Low Birth weight (LBW) acts as an indicator of sickness in newborn babies. LBW is closely
 associated with infant mortality as well as various health outcomes later in life. Various studies
 show strong correlation between maternal health during pregnancy and the child’s birth weight.
@@ -21,3 +27,5 @@ classifies the patient as cases of LBW and cases of non-LBW.
 
 This is a design assignment that requires you to design a neural network from scratch using
 only numpy. You are expected to submit a working code on the dataset provided to you
+
+
